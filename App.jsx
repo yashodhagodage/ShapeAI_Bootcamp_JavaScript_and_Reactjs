@@ -8,10 +8,9 @@ function App() {
     <div>
       <Header />
       <Footer />
-      <Info />
-      <Info />
-      <Info />
-      <Info />
+      for (let i = 0; i < 4; i++) {
+        <Info />
+  }
     </div>
   );
 }
